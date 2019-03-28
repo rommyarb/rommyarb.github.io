@@ -1267,8 +1267,18 @@ img {
   left: 0;
 }
 
-.st-container > input,
-.st-container > a {
+input[name="radio-set"]:not(:checked) + a {
+  position: fixed;
+  bottom: 0px;
+  width: 20%;
+  cursor: not-allowed;
+  font-size: 16px;
+  opacity: 0.5;
+  height: 40px;
+  line-height: 40px;
+}
+
+input[name="radio-set"]:checked + a {
   position: fixed;
   bottom: 0px;
   width: 20%;
