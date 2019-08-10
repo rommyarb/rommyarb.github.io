@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-cloak>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bantu Mamik Kirim WA</title>
+  <style>
+    [ng\:cloak],
+    [ng-cloak],
+    [data-ng-cloak],
+    [x-ng-cloak],
+    .ng-cloak,
+    .x-ng-cloak {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div ng-controller="myAppCtrl" style="font-size:18px">
+    <ol>
+      <li ng-repeat="nohp in nohp_ track by $index" style="margin: 10px 0;">
+        <a ng-href="https://web.whatsapp.com/send?phone={{nohp}}&text={{text}}" target="_blank">{{nohp}}</a>
+      </li>
+    </ol>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+  <script>
+    var app = angular.module('myApp', []);
+    app.controller('myAppCtrl', function ($scope) {
+      $scope.text = "Bismillahirahmanirrahiim.%0AAssalamu'alaikum%20wr.wb.%0A%0AMasih%20ingat%20ngefast%20sesi%20muamalah%20yang%20kita%20obrolin%20di%20KEY%20COUPLE%20SEJARAH%20kemarin%20%3F!%0A%0AAlhamdulillah%20pendaftaran%20dan%20pembayarannya%20sudah%20kami%20buka%20sejak%20kemarin%0A%0A*Sampai%20sekarang%20tercatat%20lebih%20dari%20100%20peserta%20yang%20membayar%20dari%20total%20175%20kuota%20ruangan*%0A%0AYuk%20jangan%20sampai%20kamu%20yg%20pertama%20waiting%20list%20malah%20ga%20kebagian%20kesempatan%0A%0A%F0%9F%93%A1%20%F0%9F%93%A1%20%F0%9F%93%A1%20%F0%9F%93%A1%20%F0%9F%93%A1%20%F0%9F%93%A1%20%F0%9F%93%A1%20%F0%9F%93%A1%20%F0%9F%93%A1%0A*NGEFAST%20SESI%20MUAMALAH%20MAKRO*%0A(KHUSUS%20UNTUK%20ALUMNI)%0ABersama%20%23temanhijrah%2C%20kita%20akan%20belajar%20bersama%3A%0A%0A*Pemateri%20%3A%20Ust%20Dwi%20Condro%20Triono%2C%20Ph.D*%0A%20(pakar%20ekonomi%20islam%2C%20penulis%2C%20dan%20pengusaha)%0A%0A*Moderator%20%3A%20Weemar%20Aditya%2C%20S.T*%20%0A(dai%20dan%20trainer%20utama%20yukngaji)%0A%0A%F0%9F%93%8C%20%F0%9F%93%8C%20%F0%9F%93%8C%20%F0%9F%93%8C%20%F0%9F%93%8C%20%F0%9F%93%8C%20%F0%9F%93%8C%20%F0%9F%93%8C%20%F0%9F%93%8C%0ASeminar%202%20hari%20full%20day%20ini%20insyaAllah%20akan%20diselenggarakan%20pada%20tanggal%3A%0A31%20Agustus%20-%20pkl%2007.30-16.00%0A01%20September%20-%20pkl%2007.30-16.00%0A%0A%F0%9F%93%8D%20TEMPAT%3A%20Hotel%20Cosmo%20Amaroossa%20-%20Cilandak%2C%20Jakarta%20Selatan%20https%3A%2F%2Fmaps.app.goo.gl%2FC4tsWBXbGTgkga3f8%0A%0A%F0%9F%93%A6%20FASILITAS%3A%20%0AIlmu%20praktis%20langsung%20dari%20praktisi%0ARuangan%20ballroom%20hotel%20bintang%204%20Full%20AC%0AClass%20Room%20Style%0ACoffee%20Break%0ALunch%20buffet%0AHandout%0A%20Materi%0AFull%20Multimedia%0AGoodiebag%0AQuiz%20Berhadiah%20Sponsor%0AFree%20valet%20parking%0A%0A%F0%9F%93%A9%20%F0%9F%93%A9%20%F0%9F%93%A9%20%F0%9F%93%A9%20%F0%9F%93%A9%20%F0%9F%93%A9%20%F0%9F%93%A9%20%F0%9F%93%A9%20%F0%9F%93%A9%0A*LINK%20PENDAFTARAN*%0Ahttps%3A%2F%2Fngefast.id%2Fngefastsesimuamalah%0A%0A%F0%9F%92%8E%20INVESTASI%20ILMU%0A*Early%20Birds%3A%20Rp%20625.000%2C-*%20%0A(pelunasan%20sampai%20tgl%2012%20Agustus)%0A*Normal%3A%20Rp%20725.000%2C-*%0A(pelunasan%20setelah%20tgl%2012%20Agustus)%0A%0AKuota%20peserta%3A%20175%20peserta%20(telah%20terdaftar%20waiting%20list%20lebih%20dari%20100%20peserta)%0A%0AYuk%20segera%20daftar%2C%20*ada%20hadiah%20kejutan%20menarik%20untuk%2020%20pendaftar%20pertama!*%0A%0ACP%20%26%20INFO%3A%20*Nana%20087777888470*";
+      $scope.nohp_ = [
+        "62811656300",
+        "628152108353",
+        "628119327692",
+        "628116042488",
+        "628119417299",
+        "6285664416163",
+        "628997911779",
+        "62818710956",
+        "628990007000",
+        "6281288151447",
+        "62817130686",
+        "6287885603093",
+        "6281908171316",
+        "6281310564930",
+        "6287780007555",
+        "628111909567",
+        "6285711785248",
+        "6281225407622",
+        "628161830606",
+        "6287886577071",
+        "628176007077",
+        "62816683114",
+        "6281212977759",
+        "6281394131232",
+        "628119991667",
+        "6281213462307",
+        "628112400091",
+        "6281808954789",
+        "628151601547",
+        "628115571985",
+        "628558111423",
+        "6287771249747",
+        "6281278577193",
+        "62811992403",
+        "6281519008051",
+        "6281237302404",
+        "628176933933",
+        "6285966334133",
+        "6285693217133",
+        "6285966334414",
+        "628567680686",
+        "628119892656",
+        "6285220114544",
+        "62818139216",
+        "6281998866444",
+        "6281297108409",
+        "6281299086962",
+        "6285286827228",
+        "6287776656562",
+        "6287881836094",
+        "6281905027176",
+        "6281911245659",
+        "6281905061635",
+        "6282137896210",
+        "628111741222",
+        "6281381669966",
+        "6281298631639",
+        "62819820720",
+        "6282111222965",
+        "6285245081315",
+        "628119731980",
+        "628978399711",
+        "6287730031987",
+        "62818795669",
+        "6281314966953",
+        "6281511550326",
+        "6285399999249",
+        "6287889033833",
+        "6287803021990",
+        "6281317709919",
+        "628164877331",
+        "6281219557164",
+        "628122396481",
+        "6281362488531",
+        "628176007077",
+        "6281382105011",
+        "6285770109091",
+        "6285691210507",
+        "62818826419",
+        "6285959021963",
+        "6285215274616",
+        "6285693371147",
+        "628561611331",
+        "628161406024",
+        "6287881836094",
+        "628127128483",
+        "6281314317842",
+        "6281806750627",
+        "6282244143956",
+        "628176502323",
+        "6287777888470",
+        "6287889033833",
+        "628111375225",
+        "628978399711",
+        "6281289928216",
+        "6281904175608",
+        "6281905808316",
+        "628124246246",
+      ];
+    });
+  </script>
+</body>
+
+</html>
